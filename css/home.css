@@ -50,15 +50,9 @@
 	width: 100% !important;
 }
 
-#prezPic {
+#profile {
 	width: 30%;
 	height: 30%;
     float: left;
     margin-right: 20px;
-}
-
-#prexBox {
-    float: left;
-    padding-left: 20px;
-    margin-left: 20px;
 }
