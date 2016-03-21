@@ -1,7 +1,7 @@
 #indexMainPage {
 	position: relative;
 	left: 12%;
-	width: 76%;
+	width: 85%;
 	height: auto;
 	z-index: 1;
 }
@@ -53,6 +53,6 @@
 #profile {
 	width: 30%;
 	height: 30%;
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
