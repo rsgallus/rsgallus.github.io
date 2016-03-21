@@ -1,0 +1,64 @@
+#indexMainPage {
+	position: relative;
+	left: 12%;
+	width: 76%;
+	height: auto;
+	z-index: 1;
+}
+
+.mod {
+	position: relative;
+	padding: 2%;
+	background: #FFFFFF;
+	overflow: auto;
+}
+
+#mod1 {
+	width: 96%;
+	height: auto;
+}
+
+#mod2 {
+	width: 96%;
+	height: auto;
+	margin-top: 20px;
+}
+
+#cover {
+	position: relative;
+	width: 100%;
+	height: auto;
+    padding-bottom: 5px;
+}
+
+#twitter {
+	position: relative;
+	float: right;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+
+#facebook {
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	top: 3px;
+}
+
+.fb-like-box, .fb-like-box span, .fb-like-box iframe {
+	width: 100% !important;
+}
+
+#prezPic {
+	width: 30%;
+	height: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+#prexBox {
+    float: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
