@@ -140,7 +140,7 @@ a.dummy:hover {
     font-size: .9em;
     background: #083F0F;
     opacity: 0.85;
-    
+
 }
 
 #menu {
@@ -194,7 +194,7 @@ ul li ul {
     float: none;
     display: none;
     background: #083F0F;
-} 
+}
 
 ul li ul li {
     display: block;
@@ -284,7 +284,7 @@ ul li ul li {
 }
 
 #links a:hover{
-    color: #777777;   
+    color: #777777;
 }
 
 #footISU{
