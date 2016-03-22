@@ -52,7 +52,7 @@ h1, h2, h3 {
 	margin-bottom: 20px;
     background: #FFFFFF;
 	border-bottom-style: inset;
-	border-bottom-color: #700070;
+	border-bottom-color: #151B54;
 	z-index: 2;
 }
 
@@ -125,7 +125,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 	background: #EEEEEE;
 	border-top-style: outset;
-	border-top-color: #700070;
+	border-top-color: #151B54;
     border-top-width: 1px;
 	z-index: 2;
     opacity: 1;
