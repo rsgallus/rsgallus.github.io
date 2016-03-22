@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <!-- Basic HTML -->
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-      <!-- End Basic HTML -->
+<html lang="en">
+<head>
+  <!-- Character Set and Scale -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- End Character Set and Scale -->
 
-      <!-- Page Data -->
-      <title>Ryan Gallus</title>
-      <meta name="Author" content="Ryan Gallus" />
-      <meta name="Keywords" content="Ryan, Gallus, Computer, Software, Iowa, State, University, Engineer">
-      <meta name="Description" content="The official website of Ryan Gallus, Computer Engineering Student at Iowa State University">
-      <!-- End Page Data -->
+  <!-- Page Data -->
+  <title>Ryan Gallus</title>
+  <meta name="Author" content="Ryan Gallus" />
+  <meta name="Keywords" content="Ryan, Gallus, Computer, Software, Iowa, State, University, Engineer">
+  <meta name="Description" content="The official website of Ryan Gallus, Computer Engineering Student at Iowa State University">
+  <!-- End Page Data -->
 
-      <!-- CSS -->
-      <link rel="stylesheet" type="text/css" href="/style.css" />
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-      <!-- End CSS -->
+  <!-- CSS and Fonts-->
+  <!-- <link rel="stylesheet" type="text/css" href="/style.css" /> -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <!-- End CSS -->
 
-      <!-- Favicon -->
-      <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
-      <!-- End Favicon -->
-    </head>
-    <body>
-      <div id="container">
-          <div id="header">
-              <div id="cover">
-                  <img id="cover" src="media/cover.jpg" alt="Unavailable">
-              </div>
-          </div>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <!-- End Favicon -->
 
-          <div id="mainPage">
-              <div class="section" id="section1">
-                  <h2> Ryan Gallus - Computer Engineering Student </h2>
-                  <p> Welcome to the website for Ryan Gallus! This site is a work in progress, so the text won't necessarily make sense. Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-                  <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-                  <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-              </div>
-              <div class="section" id="section2">
-                  <img id="profile" src="media/profile.jpg" alt="Unavailable">
-                  <div id="profileBox">
-                      <h2>About Me</h2>
-                      <p> My name is Ryan Gallus, and I haven't written this section yet. Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</p>
-                      <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-                  </div>
-              </div>
-          </div>
+  <!-- Bootstrap and JQuery -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- End Bootstrap and JQuery -->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <h1> This is the header section </h1>
+      <div id="cover">
+        <img id="cover" src="media/cover.jpg" alt="Unavailable">
       </div>
-      <div id="footer">
-          <h2 class="footTitle"> Footer - Ryan Gallus </h2>
+    </div>
+
+    <div class="row">
+      <div class="section" id="section1">
+        <h2> Welcome </h2>
+        <p> Welcome to the website for Ryan Gallus! This site is a work in progress, so the text won't necessarily make sense. Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
+        <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
+        <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
       </div>
-    </body>
-</html>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">About Me
+        <div class="section" id="section2">
+          <img id="profile" src="media/profile.jpg" alt="Unavailable">
+          <div id="profileBox">
+            <h2>About Me</h2>
+            <p> My name is Ryan Gallus, and I haven't written this section yet. Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</p>
+          </div>
+          <div class="col-sm-4">Skills
+            <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
+          </div>
+          <div class="col-sm-4">Education</div>
+            <p> Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="footTitle"> Footer - Ryan Gallus </h2>
+    </div>
+  </body>
+  </html>
