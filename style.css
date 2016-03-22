@@ -126,7 +126,7 @@ h1, h2, h3 {
 	background: #DDDDDD;
 	border-top-style: outset;
 	border-top-color: #151B54;
-    border-top-width: 1px;
+    border-top-width: 2px;
 	z-index: 2;
     opacity: 1;
 }
