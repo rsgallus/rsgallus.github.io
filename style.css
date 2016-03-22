@@ -50,7 +50,7 @@ h1, h2, h3 {
 	height: auto;
 	overflow: visible;
 	margin-bottom: 20px;
-    background: #CCCCCC;
+    background: #DDDDDD;
 	border-bottom-style: inset;
 	border-bottom-color: #151B54;
 	z-index: 2;
@@ -123,7 +123,7 @@ h1, h2, h3 {
 	color: #000000;
 	font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-	background: #CCCCCC;
+	background: #DDDDDD;
 	border-top-style: outset;
 	border-top-color: #151B54;
     border-top-width: 1px;
