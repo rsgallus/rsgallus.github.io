@@ -1,0 +1,139 @@
+/*-------------------------------------------------- */
+/* GENERAL */
+/*-------------------------------------------------- */
+html, body {
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	background: #EEEEEE;
+}
+
+#container {
+	position: relative;
+	height: auto;
+	z-index: 0;
+	overflow: hidden;
+}
+
+/*-------------------------------------------------- */
+/* TEXT */
+/*-------------------------------------------------- */
+.title {
+	float: left;
+	color: #FFFFFF;
+	font-family: Garamond, Georgia, serif;
+	font-size: 2.2em;
+	white-space: nowrap;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 140%;
+	margin: 0px;
+    padding: 0px;
+    padding-bottom: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+/*-------------------------------------------------- */
+/* HEADER */
+/*-------------------------------------------------- */
+#header {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	margin-bottom: 20px;
+    background: #FFFFFF;
+	border-bottom-style: inset;
+	border-bottom-color: #700070;
+	z-index: 2;
+}
+
+#titleArea {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+/*-------------------------------------------------- */
+/* MAINPAGE */
+/*-------------------------------------------------- */
+#mainPage {
+	position: relative;
+	left: 8%;
+	width: 85%;
+	height: auto;
+	z-index: 1;
+}
+
+.section {
+	position: relative;
+	padding: 2%;
+	background: #FFFFFF;
+	overflow: auto;
+}
+
+#section1 {
+	width: 96%;
+	height: auto;
+}
+
+#section2 {
+	width: 96%;
+	height: auto;
+	margin-top: 20px;
+}
+
+#cover {
+	position: relative;
+	width: 100%;
+	height: auto;
+    padding-bottom: 5px;
+}
+
+#profile {
+	width: 30%;
+	height: 30%;
+  float: left;
+  margin-right: 20px;
+}
+
+#profileBox {
+	width: 66%;
+	height: 30%;
+  float: right;
+  margin-right: 20px;
+}
+
+/*-------------------------------------------------- */
+/* FOOTER */
+/*-------------------------------------------------- */
+#footer {
+	position: relative;
+	height: 120px;
+	width: 100%;
+	margin-top: 20px;
+	color: #000000;
+	font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+	background: #EEEEEE;
+	border-top-style: outset;
+	border-top-color: #700070;
+    border-top-width: 1px;
+	z-index: 2;
+    opacity: 1;
+}
+
+.footTitle {
+	font-size: .8em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
