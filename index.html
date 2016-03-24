@@ -27,7 +27,8 @@
   <!-- End Bootstrap and JQuery -->
 
   <!-- Social -->
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs'); </script>
+  <script src="https://apis.google.com/js/platform.js" async defer> </script>
   <!-- End Social -->
 </head>
 <body>
@@ -50,7 +51,12 @@
         </div>
       </div>
       <div class="col-sm-2">
-        <a href="https://twitter.com/RyanGallus" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @RyanGallus</a>
+        <div class="row">
+          <a href="https://twitter.com/RyanGallus" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @RyanGallus</a>
+        </div>
+        <div class="row">
+          <div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/110619784851681022824" data-rel="author"></div>
+        </div>
       </div>
     </div>
 
