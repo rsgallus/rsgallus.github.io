@@ -1,5 +1,5 @@
 # Ryan Gallus
-This is a simple GitHub Pages website at the domain [ryangallus.me](http://www.ryangallus.me).
+This is a simple GitHub Pages website at the domain [www.ryangallus.com](http://www.ryangallus.com).
 
 
 ## Development
