@@ -1,0 +1,121 @@
+/* Body */
+body {
+  font-family: 'Muli', Arial, sans-serif;
+  padding-top: 54px;
+  color: #6b737b;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/* Images */
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Highlight Color */
+.text-primary {
+  color: #FE9238 !important;
+}
+
+/* Social Media Icons */
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #FE9238;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+/* Resume Sections */
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+.resume-date {
+  width: 600px !important;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* Footer */
+.contact p {
+  display: inline-block;
+  padding-right: 50px;
+}
