@@ -11,11 +11,6 @@ body {
   }
 }
 
-/* Nav Bar */
-.navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.4);
-}
-
 /* Images */
 .bg-image-full {
   background: no-repeat center center scroll;
@@ -82,7 +77,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #FE9238;
+  background-color: #6b737b;
 }
 
 .fas {
