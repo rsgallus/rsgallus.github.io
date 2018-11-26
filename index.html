@@ -33,7 +33,7 @@
 
   <!-- Core CSS and JavaScript -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli|Saira+Extra+Condensed">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -44,7 +44,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Ryan Gallus</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">About
+            <a class="nav-link" href="index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -63,17 +63,18 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Photography</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Iceland</a>
-              <a class="dropdown-item" href="#">Pacific Northwest</a>
-              <a class="dropdown-item" href="#">European Cities</a>
+              <a class="dropdown-item" href="iceland.html">Iceland</a>
+              <a class="dropdown-item" href="italy.html">Italy</a>
+              <a class="dropdown-item" href="soon.html">Washington</a>
+              <a class="dropdown-item" href="soon.html">Wyoming</a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guides</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Markdown</a>
-              <a class="dropdown-item" href="#">HTML/CSS</a>
-              <a class="dropdown-item" href="#">JavaScript</a>
+              <a class="dropdown-item" href="soon.html">Markdown</a>
+              <a class="dropdown-item" href="soon.html">HTML/CSS</a>
+              <a class="dropdown-item" href="soon.html">JavaScript</a>
             </div>
           </li>
         </ul>
@@ -82,186 +83,93 @@
   </nav>
 
   <!-- Header -->
-  <header class="py-5 bg-image-full" style="background-image: url('img/cover.png');">
-    <div style="height: 150px;"></div>
+  <header class="py-5 bg-image-full" style="background-image: url('img/feature/cover.jpg');">
+    <div style="height: 600px;"></div>
   </header>
 
-  <!-- About Section -->
+  <!-- Iceland Feature -->
   <section class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mr-4">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        <div class="col-md-3 p-3 mt-5">
+          <h3> Skógafoss, Iceland </h3>
         </div>
-        <div class="col-md">
-          <h1 class="mb-0">Ryan
-            <span class="text-primary">Gallus</span>
-          </h1>
-          <p class="subheading mb-5">Computer Engineering and MBA Grad from Iowa State University</p>
-          <p class="lead mb-5">Currently a Product Manager at Spreetail, I graduated from Iowa State University with a Bachelors of Science in Computer Engineering and a Masters of Business Administration.</p>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/rsgallus/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/rsgallus">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/RyanGallus">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.facebook.com/rsgallus">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/ryangallus">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
+        <div class="col-md-9 p-3">
+          <a href="iceland.html">
+            <img src="img/feature/feature1.jpg" class="rounded img-fluid" alt="unavailable">
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Image Section -->
-  <section class="py-5 bg-image-full" style="background-image: url('img/section1.png');">
-    <div style="height: 150px;"></div>
-  </section>
-
-  <!-- Education Section -->
+  <!-- Grand Tetons Feature -->
   <section class="py-5">
     <div class="container">
-      <h2 class="mb-5">Education</h2>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Iowa State University</h3>
-          <div class="subheading mb-3">Master of Business Administration</div>
-          <div>Data Analytics Specialization</div>
-          <p>GPA: 3.86</p>
+      <div class="row">
+        <div class="col-md-9 p-3">
+          <a href="soon.html">
+            <img src="img/feature/feature2.jpg" class="rounded img-fluid" alt="unavailable">
+          </a>
         </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">August 2016 - May 2018</span>
+        <div class="col-md-3 p-3 mt-5">
+          <h3> Teton Mountain Range, Wyoming </h3>
         </div>
       </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Iowa State University</h3>
-          <div class="subheading mb-3">Bachelor of Science</div>
-          <div>Computer Engineering</div>
-          <p>GPA: 3.64</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">August 2013 - May 2018</span>
-        </div>
-      </div>
-
     </div>
   </section>
 
-  <!-- Image Section -->
-  <section class="py-5 bg-image-full" style="background-image: url('img/section2.png');">
-    <div style="height: 150px;"></div>
-  </section>
-
-  <!-- Experience Section -->
+  <!-- Mt Rainier Feature -->
   <section class="py-5">
     <div class="container">
-      <h2 class="mb-5">Experience</h2>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Product Manager</h3>
-          <div class="subheading mb-3"><i class="fas fa-box-open"></i>Spreetail</div>
-          <p>I currently work as a Product Manager at Spreetail on the merchandising team. Here, I plan biweekly sprints, manage the backlog, and perform analytics on our development process.</p>
+      <div class="row">
+        <div class="col-md-3 p-3 mt-5">
+          <h3> Mount Rainier, Washington </h3>
         </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">August 2018 - Present</span>
+        <div class="col-md-9 p-3">
+          <a href="soon.html">
+            <img src="img/feature/feature3.jpg" class="rounded img-fluid" alt="unavailable">
+          </a>
         </div>
       </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Project Management Intern</h3>
-          <div class="subheading mb-3"><i class="fas fa-plane"></i>Boeing</div>
-          <p>At Boeing, I worked on the Data Center Modernization Team, working with application owners to plan and schedule migration tasks. I was responsible for assisting developers in migrating their applications, taking inventory of data center hardware, retiring hardware, and reporting status updates to executives.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">May 2017 - August 2017</span>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Software Engineering Intern</h3>
-          <div class="subheading mb-3"><i class="fas fa-laptop"></i>IBM</div>
-          <p>At IBM, I worked on the WebSphere Application Server team, developing the WebSphere Liberty Java EE application server. I was responsible for implementing new features and bug fixes, reviewing code for team members, developing open source sample applications, and participating in an agile development environment.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">May 2016 - May 2017</span>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Software Engineering Intern</h3>
-          <div class="subheading mb-3"><i class="fas fa-hospital-alt"></i>Cerner</div>
-          <p>At Cerner, I worked on a team developing Java desktop and web applications for querying and analyzing patient medical record data. I was responsible for implementing new features, reviewing code, testing bug fixes, and doing basic client support. I also competed in an Intern Hackathon, winning first place for an Android application design.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">May 2015 - August 2015</span>
-        </div>
-      </div>
-
     </div>
   </section>
 
-  <!-- Image Section -->
-  <section class="py-5 bg-image-full" style="background-image: url('img/section3.png');">
-    <div style="height: 150px;"></div>
-  </section>
-
-  <!-- Leadership Section -->
+  <!-- Yoho Feature -->
   <section class="py-5">
     <div class="container">
-      <h2 class="mb-5">Leadership</h2>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Delta Sigma Phi Fraternity</h3>
-          <p>In the Spring of 2014, I helped to found the Iowa State University Chapter of Delta Sigma Phi Fraternity. I served as the first Vice President of Risk Management and Judicial Affairs. In this role, I drafted our first set of bylaws, established a standards board to hold members accountable, wrote a crisis management plan, and worked to minimize risk in all our activities. While continuing to serve in this position, I was elected Philanthropy Chair. Here, I organized our first ever event, the 4K Hay Run for Cancer. This four kilometer run event with hay bale obstacles had over 150 participants, raising more than $1,500 for the Ulman Cancer Fund for Young Adults. Next, I was elected Vice President of Membership Development. In this role, I designed a membership development workbook, planned several skill development events including semesterly retreats, and oversaw the new member education process. Since then, I have also served as Public Relations Chair and Social Chair.</p>
+      <div class="row">
+        <div class="col-md-9 p-3">
+          <a href="soon.html">
+            <img src="img/feature/feature4.jpg" class="rounded img-fluid" alt="unavailable">
+          </a>
+        </div>
+        <div class="col-md-3 p-3 mt-5">
+          <h3> Moraine Lake, Alberta </h3>
         </div>
       </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Community Adviser</h3>
-          <p>In the fall of 2014, I started working for the ISU Department of Residence as a Community Adviser. In this position, I had a number of leadership roles and responsibilities. I was in charge of a house of 50+ students and oversaw house operations, including advising the house cabinet. I regularly interacted with students, working to connect them with campus resources and promote an inclusive community in the building. While on duty, I was responsible for managing the building, enforcing departmental policies, and responding to emergency situations. I also completed a number of administrative tasks, including staff meetings, working at the hall desk, designing bulletin boards, distributing flyers and information, and running social media accounts. In addition to these tasks, I planned various house and building-wide events to help residents meet academic and personal goals.</p>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Honors Program</h3>
-          <p>Participation in the university Honors Program requires maintaining a GPA above a 3.5, taking several honors classes and seminars, conducting a senior project, and completing an additional three pillars of excellence. To achieve the pillars of excellence, I studied abroad in the United Kingdom, am taking two technical graduate-level courses, and am pursuing a concurrent Master of Business Administration. For my Honors Capstone Project, I am building a machine learning model to predict what kind of social media posts are likely to have a positive response. In addition to these general requirements, I served as a Freshman Honors Program Leader, where I co-lead a semester-long honors orientation course to a class of roughly 15 honors students.</p>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">Student Admissions Representative</h3>
-          <p>In the fall of 2016, I began serving as a Student Admissions Representative for the ISU Office of Admissions. In this role, I take on various customer service and sales tasks including regular campus/residence hall tours for interested families and supporting campus visit events. In the Spring of 2017, I was elected to the executive board as Membership Development Coordinator, where I provide opportunities for our student volunteers to interact.</p>
-        </div>
-      </div>
-
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <div class="contact">
-        <p class="m-0 text-white">Contact</p>
-        <p><a class="m-0 text-white" href="mailto:rsgallus@gmail.com">rsgallus@gmail.com</a></p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/rsgallus/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/rsgallus">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/RyanGallus">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/rsgallus">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/ryangallus">
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
     </div>
   </footer>
