@@ -1,14 +1,7 @@
-/* Body */
-body {
+/* Page */
+body, html {
   font-family: 'Muli', Arial, sans-serif;
-  padding-top: 54px;
   color: #6b737b;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
 }
 
 /* Images */
@@ -44,7 +37,6 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 300;
-  font-family: 'Quicksand', sans-serif;
   color: #6b737b;
 }
 
@@ -53,9 +45,8 @@ p.lead {
   font-weight: 400;
 }
 
-/* Highlight Color */
-.text-primary {
-  color: #FE9238 !important;
+a:hover {
+  text-decoration: none;
 }
 
 /* Social Media Icons */
