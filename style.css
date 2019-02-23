@@ -40,6 +40,11 @@ h3 {
   color: #6b737b;
 }
 
+.inline {
+  display: inline;
+  vertical-align: middle;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
