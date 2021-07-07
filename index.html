@@ -32,13 +32,14 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Core CSS and JavaScript -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli|Quicksand">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gudea&display=swap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -51,18 +52,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="iceland.html">Iceland</a>
+            <a class="nav-link" href="content/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="europe.html">Europe</a>
+            <a class="nav-link" href="https://github.com/rsgallus">GitHub</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="parks.html">National Parks</a>
+            <a class="nav-link" href="https://www.linkedin.com/in/rsgallus/">LinkedIn</a>
           </li>
         </ul>
       </div>
@@ -71,69 +72,73 @@
 
   <!-- Header -->
   <header>
-    <div style="height: 100px;"></div>
+    <div style="height: 25px;"></div>
+    <div class="row mx-5 g-0 mt-5 bg-light bg-gradient position-relative">
+      <div class="col-md-12 p-4 ps-md-5">
+        <h4 class="mt-0">A Little About Me</h4>
+        <p>Hi, I'm Ryan, and this is my website. I built this as a project to keep my web skills sharp and learn more about bootstrap, ssl, purchasing a domain name, and fun stuff like that. Now I post pictures and articles from time to time. I studied Computer Engineering at Iowa State Universtity and then did a Masters of Business Administration. Since then I've worked in Software Engineering and Product Management roles, mostly in Ecommerce.</p>
+        <p>Below you'll find pictures from travels, articles about experiences, and some thoughts from my software experience.  Learn <a href="content/about.html" class="stretched-link">more about me</a> here.</p>
+      </div>
+    </div>
+    <div style="height: 75px;"></div>
   </header>
 
   <!-- Featured Images -->
   <div class="container">
 
-    <div id="carouselFeatured" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/feature/feature-slim1.jpg" alt="First slide">
+    <div class="row mx-5 mt-5">
+      <p class="fst-italic"><small class="text-muted">Site last updated July 7th, 2021</small></p>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/feature/feature-slim2.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/feature/feature-slim3.jpg" alt="Third slide">
-    </div>
-  </div>
-</div>
 
-<div class="row p-5">
-  <div class="col-xl-12">
-    <h4 class="text-center"> - Hiker and explorer with a passion for the outdoors - </h4>
-  </div>
-</div>
-
-    <div class="row pt-5">
-      <div class="col-lg-6 p-4">
-        <a href="iceland.html">
-          <img src="img/feature/feature1.jpg" class="img-thumbnail"  alt="unavailable">
-        </a>
+    <div class="row mx-5 g-0 bg-light position-relative">
+      <div class="col-md-4 mb-md-0 p-md-4">
+        <img src="img/feature/feature3.jpg" class="w-100" alt="Island in Olympic National Park">
       </div>
-      <div class="col-lg-6 pr-5 pl-5 pt-3 pb-5 mt-3 mb-5">
-        <h4> The small island of Iceland is home to some of the world's most incredible geography, including powerful waterfalls, unique geothermal areas, and massive glaciers. </h4>
+      <div class="col-md-8 p-4 ps-md-0">
+        <h5 class="mt-0">Photos in the National Parks</h5>
+        <p>The National Parks of the United States draw hundreds of thousands of visitors each year. Some of the most impressive scenery is only accessible via long hikes. To date, I have visited 38 U.S. National Parks and plan to eventually see all 62.</p>
+        <a href="content/parks.html" class="stretched-link">See Pictures</a>
+        <p class="card-text"><small class="text-muted">Published December 11, 2018</small></p>
       </div>
     </div>
 
-    <div class="row pt-1">
-      <div class="col-lg-6 p-4">
-        <a href="europe.html">
-          <img src="img/feature/feature2.jpg" class="img-thumbnail"  alt="unavailable">
-        </a>
+    <div class="row mx-5 g-0 mt-5 bg-light position-relative">
+      <div class="col-md-4 mb-md-0 p-md-4">
+        <img src="img/feature/feature1.jpg" class="w-100" alt="Waterfall in Iceland">
       </div>
-      <div class="col-lg-6 pr-5 pl-5 pt-3 pb-5 mt-3 mb-5">
-        <h4> European cities are renowned for their incredible architecture. These pictures span parts of London, Edinburgh, Paris, and Northern Italy.</h4>
+      <div class="col-md-8 p-4 ps-md-0">
+        <h5 class="mt-0">Photos in Iceland</h5>
+        <p>The small island of Iceland is home to some of the world's most incredible geography, including powerful waterfalls, unique geothermal areas, and massive glaciers. I had the chance to visit in 2018 and spent two weeks traveling Iceland's Ring Road, camping and taking pictures along the way.</p>
+        <a href="content/iceland.html" class="stretched-link">See Pictures</a>
+        <p class="card-text"><small class="text-muted">Published November 25, 2018</small></p>
       </div>
     </div>
 
-    <div class="row pt-1 pb-5">
-      <div class="col-lg-6 p-4">
-        <a href="parks.html">
-          <img src="img/feature/feature3.jpg" class="img-thumbnail"  alt="unavailable">
-        </a>
+    <div class="row mx-5 g-0 mt-5 bg-light position-relative">
+      <div class="col-md-4 mb-md-0 p-md-4">
+        <img src="img/feature/feature6.jpeg" class="w-100" alt="Man with hard hat in underground tunnel">
       </div>
-      <div class="col-lg-6 pr-5 pl-5 pt-3 pb-5 mt-3 mb-5">
-        <h4> The National Parks of the United States and Canada draw hundreds of thousands of visitors each year. Some of the most impressive scenery is only accessible via long hikes. </h4>
+      <div class="col-md-8 p-4 ps-md-0">
+        <h5 class="mt-0">An Adventure Underground</h5>
+        <p>It's no secret that underneath Iowa State University's campus lies a system of tunnels used to move hot steam from the power plant to the buildings. Students talk about it all the time. But getting inside the tunnels is much harder. I was lucky enough to tour the tunnels with ISU's Facilities Planning and Maintenance staff.</p>
+        <a href="content/tunnels.html" class="stretched-link">Read More</a>
+        <p class="card-text"><small class="text-muted">Published Feburary 28, 2018</small></p>
       </div>
     </div>
+
+    <div class="row mx-5 g-0 mt-5 mb-5 bg-light position-relative">
+      <div class="col-md-4 mb-md-0 p-md-4">
+        <img src="img/feature/feature2.jpg" class="w-100" alt="Big Ben and Parliament Building in London">
+      </div>
+      <div class="col-md-8 p-4 ps-md-0">
+        <h5 class="mt-0">Photos in Europe</h5>
+        <p>European cities are renowned for their incredible architecture. In 2014, I had the opportunity to see most of the major cities in Italy. In 2015, I spent a semester at the University of Birmingham in England, visiting several other countries along the way. I returned to Italy in 2017 but stayed north, around Lake Como. These pictures span parts of London, Edinburgh, Paris, and Northern Italy.</p>
+        <a href="content/europe.html" class="stretched-link">See Pictures</a>
+        <p class="card-text"><small class="text-muted">Published November 28, 2017</small></p>
+      </div>
+    </div>
+
+    <div style="height: 50px;"></div>
 
   </div>
 
@@ -160,9 +165,9 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6">
-          <p>© 2019 Ryan S. Gallus</p>
-          <p>These works are being provided in full resolution. For commercial uses, please contact the photographer at <a href="mailto:rsgallus@gmail.com">rsgallus@gmail.com</a></p>
+        <div class="col-md-6 ps-4">
+          <p>© 2021 Ryan S. Gallus</p>
+          <p>These pictures are being provided in full resolution. For commercial uses, please contact the photographer at <a href="mailto:rsgallus@gmail.com">rsgallus@gmail.com</a></p>
         </div>
       </div>
     </div>

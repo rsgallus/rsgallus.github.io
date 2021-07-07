@@ -19,8 +19,8 @@ img {
 
 /* Headings */
 h1, h2, h3 {
-  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
+  font-family: 'Gudea', sans-serif;
   color: #343a40;
 }
 
